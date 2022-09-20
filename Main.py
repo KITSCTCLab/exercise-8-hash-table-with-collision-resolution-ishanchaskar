@@ -1,8 +1,11 @@
 import re
 
 def display_hash(hashtable) -> None:
+	def LinkedList(data,self):
+		data = self.next
 
 def Hashing(keyvalue) -> int:
+	
 	return keyvalue % len(HashTable)
 
 def insert(Hashtable, keyvalue, value) -> None:
