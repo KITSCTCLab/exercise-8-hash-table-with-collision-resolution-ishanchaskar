@@ -1,9 +1,9 @@
 import re
 
 def display_hash(hashtable) -> None:
-	def LinkedList(data,self):
-		data = self.next
-
+	for i in range len(HashTable):
+		print(keyvalue-->data)
+		
 def Hashing(keyvalue) -> int:
 	
 	return keyvalue % len(HashTable)
