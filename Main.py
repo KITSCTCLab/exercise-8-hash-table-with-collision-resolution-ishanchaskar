@@ -10,7 +10,8 @@ def Hashing(keyvalue) -> int:
 	return keyvalue % len(HashTable)
 
 def insert(Hashtable, keyvalue, value) -> None:
-# Do not edit the following code
+	Hashtable[keyvalue % len(Hashtable)].append(value)
+	
 
 hash_table_size = int(input())
 HashTable = [[] for _ in range(hash_table_size)]
